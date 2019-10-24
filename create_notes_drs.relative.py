@@ -2,12 +2,14 @@
 
 import os
 cwd = os.getcwd()
-#print(cwd)
-root = ("CyberSecurity-Notes")
-sub_week = ("week_")
-#sub_day = (sub_week + "day_")
+print(cwd)
 
-os.path.join(cwd, root, sub_week)
+root = ("CyberSecurity-Notes")
+
+notes_folder = os.path.join(cwd, root, "week_","day_")
+
+os.makedirs(notes_folder)
+
 #try:
     #os.mkdir(root)
     #for num in range(1,25):
