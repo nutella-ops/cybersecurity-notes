@@ -20,7 +20,7 @@ week = sub_week()
 day = sub_day()
 #try:
 #function call to create sub_dirs
-filesystem = os.path.join(current_dir, home_folder, str(week), str(day))
+filesystem = os.path.join(current_dir, home_folder, str(week), str(day))  #make filesystem a function that uses os.chdir()
 os.makedirs(filesystem)
 
 #except:
