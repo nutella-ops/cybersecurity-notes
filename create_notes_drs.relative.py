@@ -25,5 +25,5 @@ os.makedirs(filesystem)
     #for num in range(1,25):
         #os.mkdir(sub_week + str(num))
 #except:
-    #print("Directory:" + str(root) + " already exists, dummy.")
+    ##print("Directory:" + str(root) + " already exists, dummy.")
   
